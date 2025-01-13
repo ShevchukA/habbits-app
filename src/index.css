@@ -5,13 +5,35 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #333333;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/*  
+Фоновый цвет (светлый серый или белый):
+
+#F5F5F5 (очень светлый серый)
+#FFFFFF (чисто белый)
+Основной текст (темно-серый или черный):
+
+#333333 (глубокий серый)
+#000000 (чисто черный)
+Акцентные цвета (например, для выделения прогресса):
+
+#007BFF (светло-синий)
+#00A19D (нейтральный бирюзовый)
+Цвет для навигации или разделителей:
+
+#CCCCCC (светло-серый для линий и границ)
+Фон кнопок или выделенных элементов:
+
+#E0E0E0 (светлый серый с небольшим контрастом)
+#D9EDF7 (пастельно-синий)
+*/
 
 a {
   font-weight: 500;
@@ -48,21 +70,4 @@ button {
 }
 button:hover {
   border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }
