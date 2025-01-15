@@ -1,0 +1,19 @@
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-text);
+}
+
+.label {
+  flex-shrink: 0;
+  text-align: start;
+}
+
+.cells {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+}

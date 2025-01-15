@@ -20,7 +20,7 @@ export const TableCell = ({ date }: TableCellProps) => {
 
   return (
     <span className={style} onClick={handleDone}>
-      {date.split('-')[2]}
+      {/* {date.split('-')[2]} */}
     </span>
   );
 };
